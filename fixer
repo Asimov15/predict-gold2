@@ -1,0 +1,4 @@
+#!/bin/bash
+for filename in /home/dz/predict-gold/data/*; do
+    echo "hello" > $filename
+done
